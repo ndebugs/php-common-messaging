@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../../../resources/stylesheet.css" />
+</head>
+<body>
+<div class="navigationContainer">
+    <ul class="leftNavigation">
+        <li><a href="char.html">Previous</a></li>
+        <li><a href="index.html">Trail</a></li>
+        <li><a href="dec.html">Next</a></li>
+    </ul>
+    <ul class="rightNavigation">
+        <li><a href="../../../index.html" target="_top">Frames</a></li>
+        <li><a href="" target="_top">No Frames</a></li>
+    </ul>
+</div>
+<div class="contentContainer">
+    <h1>Lang / int</h1>
+    <p><a class="code" href="../../type/integer.html">Integer</a> parser.</p>
+    <div class="sectionTitle">Syntax:</div>
+    <pre class="codeWrapper code sectionContent"><span class="type">(<a href="../../type/integer.html">Integer</a>)</span> [int:<span class="variable">&lt;<span class="type">(<a href="../../type/index.html">Object</a>)</span> value&gt;</span><span class="symbol">[</span>,<span class="variable">&lt;<span class="type">(<a href="../../type/integer.html">Integer</a>)</span> fromBase&gt;</span><span class="symbol">[</span>,<span class="variable">&lt;<span class="type">(<a href="../../type/integer.html">Integer</a>)</span> toBase&gt;</span><span class="symbol">]</span><span class="symbol">]</span>]</pre>
+    <div class="sectionTitle">Parameters:</div>
+    <table class="sectionContent">
+        <tr>
+            <td class="firstColumn code">value</td>
+            <td>Source value.</td>
+        </tr>
+        <tr>
+            <td class="firstColumn code">fromBase</td>
+            <td>Base input number of <span class="code">value</span>, default value is 10.</td>
+        </tr>
+        <tr>
+            <td class="firstColumn code">toBase</td>
+            <td>Base output number of <span class="code">value</span>, default value is 10.</td>
+        </tr>
+    </table>
+    <div class="sectionTitle">Returns:</div>
+    <p class="sectionContent"><a class="code" href="../../type/integer.html">Integer</a> from specified values.</p>
+    <div class="sectionTitle">Example:</div>
+    <div class="sectionContent">in:</div>
+    <pre class="codeWrapper code sectionContent">[int:123] [int:ff,16] [int:255,10,16]</pre>
+    <div class="sectionContent">out:</div>
+    <pre class="codeWrapper code sectionContent">123 255 ff</pre>
+</div>
+</body>
+</html>

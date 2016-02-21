@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../../../resources/stylesheet.css" />
+</head>
+<body>
+<div class="navigationContainer">
+    <ul class="leftNavigation">
+        <li><a href="size.html">Previous</a></li>
+        <li><a href="index.html">Trail</a></li>
+        <li><a href="keys.html">Next</a></li>
+    </ul>
+    <ul class="rightNavigation">
+        <li><a href="../../../index.html" target="_top">Frames</a></li>
+        <li><a href="" target="_top">No Frames</a></li>
+    </ul>
+</div>
+<div class="contentContainer">
+    <h1>Lang / map / contains</h1>
+    <p>Evaluates if a <a class="code" href="../../type/map.html">Map</a> values contains an <a class="code" href="../../type/index.html">Object</a>.</p>
+    <div class="sectionTitle">Syntax:</div>
+    <pre class="codeWrapper code sectionContent"><span class="type">(<a href="../../type/boolean.html">Boolean</a>)</span> [map contains:<span class="variable">&lt;<span class="type">(<a href="../../type/map.html">Map</a>)</span> source&gt;</span>,<span class="variable">&lt;<span class="type">(<a href="../../type/index.html">Object</a>)</span> value&gt;</span>]</pre>
+    <div class="sectionTitle">Parameters:</div>
+    <table class="sectionContent">
+        <tr>
+            <td class="firstColumn code">source</td>
+            <td>Source value.</td>
+        </tr>
+        <tr>
+            <td class="firstColumn code">value</td>
+            <td>Target value.</td>
+        </tr>
+    </table>
+    <div class="sectionTitle">Returns:</div>
+    <p class="sectionContent"><span class="code">TRUE</span> if <span class="code">source</span> contains <span class="code">value</span>, <span class="code">FALSE</span> otherwise.</p>
+    <div class="sectionTitle">Example:</div>
+    <div class="sectionContent">in:</div>
+    <pre class="codeWrapper code sectionContent">[map contains:[map:[entry:a,123],[entry:b,456],[entry:c,789]],123]</pre>
+    <div class="sectionContent">out:</div>
+    <pre class="codeWrapper code sectionContent">true</pre>
+</div>
+</body>
+</html>

@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 90%;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 1.8em;
+}
+
+h2 {
+    margin: 18px 0 0 0;
+    font-size: 1.2em;
+}
+
+h3 {
+    margin: 16px 0 0 0;
+    font-size: 1.2em;
+}
+
+td {
+    vertical-align: top;
+}
+
+p {
+    margin: 5px 0;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #00f;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.titleBar {
+    padding: 3px 6px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.indexContainer {
+    padding: 5px 0 20px 0;
+}
+
+.indexContainer ul {
+    margin: 0;
+    padding-left: 16px;
+}
+
+.indexContainer li {
+    list-style: none;
+}
+
+.indexContainer a {
+    padding: 3px 0;
+}
+
+.navigationContainer {
+    padding: 3px 6px;
+    overflow: auto;
+}
+
+.navigationContainer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navigationContainer ul.leftNavigation {
+    float: left;
+}
+
+.navigationContainer ul.rightNavigation {
+    float: right;
+}
+
+.navigationContainer li {
+    display: inline;
+    list-style: none;
+    padding: 0 6px;
+}
+
+.navigationContainer li.disabled {
+    color: #999;
+}
+
+.contentContainer {
+    padding: 0 10px 20px 10px;
+}
+
+.sectionTitle {
+    margin: 16px 0 6px 0;
+}
+
+.sectionContent {
+    margin: 0 0 0 36px;
+}
+
+table.overview td.firstColumn {
+    min-width: 120px;
+}
+
+table.sectionContent td.firstColumn {
+    min-width: 120px;
+}
+
+.codeWrapper {
+    padding: 8px 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background: #eee;
+    font-size: 0.9em;
+}
+
+.code {
+    font-family: Consolas, "Courier New", Courier, monospace;
+    color: #333;
+}
+
+.code  .type, .code  .variable {
+    font-weight: bold;
+    color: #000;
+}
+
+.code .symbol {
+    color: #e00;
+}
+
+.code  .type, .code  .variable, .code .symbol {
+    font-style: italic;
+}

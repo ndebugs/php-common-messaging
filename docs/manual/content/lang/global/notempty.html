@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../../../resources/stylesheet.css" />
+</head>
+<body>
+<div class="navigationContainer">
+    <ul class="leftNavigation">
+        <li><a href="notnull.html">Previous</a></li>
+        <li><a href="index.html">Trail</a></li>
+        <li><a href="../string/index.html">Next</a></li>
+    </ul>
+    <ul class="rightNavigation">
+        <li><a href="../../../index.html" target="_top">Frames</a></li>
+        <li><a href="" target="_top">No Frames</a></li>
+    </ul>
+</div>
+<div class="contentContainer">
+    <h1>Lang / notEmpty</h1>
+    <p>Non-empty selector.</p>
+    <div class="sectionTitle">Syntax:</div>
+    <pre class="codeWrapper code sectionContent"><span class="type">(<a href="../../type/index.html">Object</a>)</span> [notEmpty:<span class="variable">&lt;<span class="type">(<a href="../../type/index.html">Object</a>)</span> value_1&gt;</span>,<span class="variable">&lt;<span class="type">(<a href="../../type/index.html">Object</a>)</span> value_2&gt;</span>]</pre>
+    <div class="sectionTitle">Parameters:</div>
+    <table class="sectionContent">
+        <tr>
+            <td class="firstColumn code">value_1</td>
+            <td>Left operand value.</td>
+        </tr>
+        <tr>
+            <td class="firstColumn code">value_2</td>
+            <td>Right operand value.</td>
+        </tr>
+    </table>
+    <div class="sectionTitle">Returns:</div>
+    <p class="sectionContent">Non empty value between <span class="code">value_1</span> and <span class="code">value_2</span>, or <span class="code">NULL</span> if both values is empty.</p>
+    <div class="sectionTitle">Example:</div>
+    <div class="sectionContent">in:</div>
+    <pre class="codeWrapper code sectionContent">[notEmpty:abc,def] [notEmpty:,def]</pre>
+    <div class="sectionContent">out:</div>
+    <pre class="codeWrapper code sectionContent">abc def</pre>
+</div>
+</body>
+</html>

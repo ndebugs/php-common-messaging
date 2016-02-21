@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../../../resources/stylesheet.css" />
+</head>
+<body>
+<div class="navigationContainer">
+    <ul class="leftNavigation">
+        <li><a href="false.html">Previous</a></li>
+        <li><a href="index.html">Trail</a></li>
+        <li><a href="char.html">Next</a></li>
+    </ul>
+    <ul class="rightNavigation">
+        <li><a href="../../../index.html" target="_top">Frames</a></li>
+        <li><a href="" target="_top">No Frames</a></li>
+    </ul>
+</div>
+<div class="contentContainer">
+    <h1>Lang / dateTime</h1>
+    <p>Retrieves current date-time <a class="code" href="../../type/string.html">String</a>.</p>
+    <div class="sectionTitle">Syntax:</div>
+    <pre class="codeWrapper code sectionContent"><span class="type">(<a href="../../type/string.html">String</a>)</span> [dateTime:<span class="variable">&lt;<span class="type">(<a href="../../type/string.html">String</a>)</span> pattern&gt;</span><span class="symbol">[</span>,<span class="variable">&lt;<span class="type">(<a href="../../type/string.html">String</a>)</span> difference&gt;</span><span class="symbol">]</span>]</pre>
+    <div class="sectionTitle">Parameters:</div>
+    <table class="sectionContent">
+        <tr>
+            <td class="firstColumn code">pattern</td>
+            <td>PHP default <span class="code">DateTime</span> format.</td>
+        </tr>
+        <tr>
+            <td class="firstColumn code">difference</td>
+            <td>Unsigned <a class="code" href="../../type/integer.html">Integer</a> + unit.<br />Available units is: Y (year), M (month), D (day), h (hour), m (minute), s (second).</td>
+        </tr>
+    </table>
+    <div class="sectionTitle">Returns:</div>
+    <p class="sectionContent">Current date-time <a class="code" href="../../type/string.html">String</a> from specified values.</p>
+    <div class="sectionTitle">Example:</div>
+    <div class="sectionContent">in:</div>
+    <pre class="codeWrapper code sectionContent">[dateTime: d-m-Y] [dateTime: d-m-Y,-1D]</pre>
+    <div class="sectionContent">out:</div>
+    <pre class="codeWrapper code sectionContent">24-10-2014 23-10-2014</pre>
+</div>
+</body>
+</html>

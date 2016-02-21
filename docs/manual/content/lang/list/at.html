@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../../../resources/stylesheet.css" />
+</head>
+<body>
+<div class="navigationContainer">
+    <ul class="leftNavigation">
+        <li><a href="index.html">Previous</a></li>
+        <li><a href="index.html">Trail</a></li>
+        <li><a href="size.html">Next</a></li>
+    </ul>
+    <ul class="rightNavigation">
+        <li><a href="../../../index.html" target="_top">Frames</a></li>
+        <li><a href="" target="_top">No Frames</a></li>
+    </ul>
+</div>
+<div class="contentContainer">
+    <h1>Lang / list / at</h1>
+    <p>Retrieves an <a class="code" href="../../type/index.html">Object</a> from a <a class="code" href="../../type/list.html">List</a>.</p>
+    <div class="sectionTitle">Syntax:</div>
+    <pre class="codeWrapper code sectionContent"><span class="type">(<a href="../../type/index.html">Object</a>)</span> [list at:<span class="variable">&lt;<span class="type">(<a href="../../type/list.html">List</a>)</span> source&gt;</span>,<span class="variable">&lt;<span class="type">(<a href="../../type/integer.html">Integer</a>)</span> index&gt;</span>]</pre>
+    <div class="sectionTitle">Parameters:</div>
+    <table class="sectionContent">
+        <tr>
+            <td class="firstColumn code">source</td>
+            <td>Source value.</td>
+        </tr>
+        <tr>
+            <td class="firstColumn code">index</td>
+            <td>Unsigned <a class="code" href="../../type/integer.html">Integer</a>, indicates index. Start from 0 to <span class="code">source</span> length - 1.</td>
+        </tr>
+    </table>
+    <div class="sectionTitle">Returns:</div>
+    <p class="sectionContent">Retrieved value from <span class="code">source</span> at specified <span class="code">index</span>.</p>
+    <div class="sectionTitle">Example:</div>
+    <div class="sectionContent">in:</div>
+    <pre class="codeWrapper code sectionContent">[list at:[list:abc,def,ghi],0]</pre>
+    <div class="sectionContent">out:</div>
+    <pre class="codeWrapper code sectionContent">abc</pre>
+</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../../../resources/stylesheet.css" />
+</head>
+<body>
+<div class="navigationContainer">
+    <ul class="leftNavigation">
+        <li><a href="pad.html">Previous</a></li>
+        <li><a href="index.html">Trail</a></li>
+        <li><a href="ltrim.html">Next</a></li>
+    </ul>
+    <ul class="rightNavigation">
+        <li><a href="../../../index.html" target="_top">Frames</a></li>
+        <li><a href="" target="_top">No Frames</a></li>
+    </ul>
+</div>
+<div class="contentContainer">
+    <h1>Lang / string / trim</h1>
+    <p>Trims a <a class="code" href="../../type/string.html">String</a>.</p>
+    <div class="sectionTitle">Syntax:</div>
+    <pre class="codeWrapper code sectionContent"><span class="type">(<a href="../../type/string.html">String</a>)</span> [string trim:<span class="variable">&lt;<span class="type">(<a href="../../type/string.html">String</a>)</span> value&gt;</span><span class="symbol">[</span>,<span class="variable">&lt;<span class="type">(<a href="../../type/string.html">String</a>)</span> characters&gt;</span><span class="symbol">]</span>]</pre>
+    <div class="sectionTitle">Parameters:</div>
+    <table class="sectionContent">
+        <tr>
+            <td class="firstColumn code">value</td>
+            <td>Source value.</td>
+        </tr>
+        <tr>
+            <td class="firstColumn code">characters</td>
+            <td>Trimmed character(s).</td>
+        </tr>
+    </table>
+    <div class="sectionTitle">Returns:</div>
+    <p class="sectionContent">Trimmed <a class="code" href="../../type/string.html">String</a> of <span class="code">value</span> by specified <span class="code">characters</span>. If <span class="code">characters</span> is NULL</span>, then whitespace characters is used.</p>
+    <div class="sectionTitle">Example:</div>
+    <div class="sectionContent">in:</div>
+    <pre class="codeWrapper code sectionContent">[string trim:  ABC def  ] [string trim:000123,0] [string trim:456000,0]</pre>
+    <div class="sectionContent">out:</div>
+    <pre class="codeWrapper code sectionContent">ABC def 123 456</pre>
+</div>
+</body>
+</html>

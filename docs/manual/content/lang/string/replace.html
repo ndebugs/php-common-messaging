@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../../../resources/stylesheet.css" />
+</head>
+<body>
+<div class="navigationContainer">
+    <ul class="leftNavigation">
+        <li><a href="rtrim.html">Previous</a></li>
+        <li><a href="index.html">Trail</a></li>
+        <li><a href="match.html">Next</a></li>
+    </ul>
+    <ul class="rightNavigation">
+        <li><a href="../../../index.html" target="_top">Frames</a></li>
+        <li><a href="" target="_top">No Frames</a></li>
+    </ul>
+</div>
+<div class="contentContainer">
+    <h1>Lang / string / replace</h1>
+    <p>Replaces some <a class="code" href="../../type/character.html">Character</a>s of a <a class="code" href="../../type/string.html">String</a>.</p>
+    <div class="sectionTitle">Syntax:</div>
+    <pre class="codeWrapper code sectionContent"><span class="type">(<a href="../../type/string.html">String</a>)</span> [string replace:<span class="variable">&lt;<span class="type">(<a href="../../type/string.html">String</a>)</span> source&gt;</span>,<span class="variable">&lt;<span class="type">(<a href="../../type/string.html">String</a>)</span> pattern&gt;</span>,<span class="variable">&lt;<span class="type">(<a href="../../type/string.html">String</a>)</span> value&gt;</span>]</pre>
+    <div class="sectionTitle">Parameters:</div>
+    <table class="sectionContent">
+        <tr>
+            <td class="firstColumn code">source</td>
+            <td>Source value.</td>
+        </tr>
+        <tr>
+            <td class="firstColumn code">pattern</td>
+            <td>Regular Expression pattern.</td>
+        </tr>
+        <tr>
+            <td class="firstColumn code">value</td>
+            <td>Replacement.</td>
+        </tr>
+    </table>
+    <div class="sectionTitle">Returns:</div>
+    <p class="sectionContent">String replacement of <span class="code">source</span> with <span class="code">value</span> by specified <span class="code">pattern</span>.</p>
+    <div class="sectionTitle">Example:</div>
+    <div class="sectionContent">in:</div>
+    <pre class="codeWrapper code sectionContent">[string replace:A1B3C1 1d3e3f,\[13\],]</pre>
+    <div class="sectionContent">out:</div>
+    <pre class="codeWrapper code sectionContent">ABC def</pre>
+</div>
+</body>
+</html>
